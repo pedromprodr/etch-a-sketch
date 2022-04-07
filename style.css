@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    border: 0;
+    border-color: none;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    font-weight: 0;
+    justify-content:center;
+    background-color: #ffe8d6;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+}
+.header h1{
+    color: #cb997e;
+    font-weight: 500;
+}
+.etch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.controlsContainer{
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe8d6;
+}
+.controlsContainer h2{
+    color: #cb997e;
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+    background-color: #ffe8d6;
+    font-size: 6px;
+    padding: 15px 5px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.footer h1{
+    font-weight: 300;
+}
+
+#gridContainer{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+}
+
+.gridRow{
+    display: flex;
+    justify-content: center;
+}
+
+.gridSquare{
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+#clearButton{
+    margin-left: 100px;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #cb997e;
+    color: #ffe8d6;
+    height: 40px;
+    width: 120px;
+    justify-content: center;
+}
+
+.filled{
+    background-color: black;
+}
